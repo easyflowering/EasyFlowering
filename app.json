@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/manual/manual",
+    "pages/auto/auto",
+    "pages/moments/moments",
+    "pages/smart/smart"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "101盆栽实验室",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"我的",
+      "iconPath":"icon/me.jpg",
+      "selectedIconPath": "icon/meSelected.jpg"
+    },{
+      "pagePath":"pages/logs/logs",
+      "text":"消息",
+      "iconPath": "icon/message.jpg",
+      "selectedIconPath": "icon/messageSelected.jpg"
+    },{
+      "pagePath":"pages/logs/logs",
+      "text":"设置",
+      "iconPath": "icon/setting.jpg",
+      "selectedIconPath": "icon/settingSelected.jpg"
+    }]
+  }
+}

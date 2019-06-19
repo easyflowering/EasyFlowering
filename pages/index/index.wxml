@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<!--
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+-->
+
+<view class="backgroundcolor" style='background:url("http://ugc.qpic.cn/mqq_photo/0/c1f47b94c0fdf6c64544b105c7009d9b118ab3a001/0");-webkit-background-size:cover;'>
+  <image class="logo" src="{{logo}} "background-size="cover"></image>
+  <view class="backgroundtext" >
+    <text>{{userManual1}}</text>
+    <navigator class="backgroundlink" url="{{userManualLink}}">{{userManual2}}</navigator>
+  </view>
+</view>
+
+<view class="space"></view>
+<view class="space"></view>
+
+<view class="piclink">
+<view class="space1"></view>
+<navigator class="singlepiclink" url="{{autolink}}"><image class="pic" src="{{autoP}}"></image></navigator>
+<navigator class="singlepiclink" url="{{smartlink}}"><image class="pic" src="{{smartP}}"></image></navigator>
+<navigator class="singlepiclink" url="{{friendlink}}"><image class="pic" src="{{friendP}}"></image></navigator>
+</view>
+
+<view class="space"></view>
+<view class="space"></view>
+<view class="space"></view>
+
+<view class="picshow">
+<view class="space"></view>
+<image class="pic" src="{{pic1}}"></image>
+<image class="pic" src="{{pic2}}"></image>
+</view>
